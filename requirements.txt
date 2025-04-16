@@ -3,3 +3,4 @@ pandas
 numpy
 seaborn  # 确保包含这一行
 matplotlib  # seaborn 依赖 matplotlib
+scikit-learn==1.3.0  # 明确版本号（可选）
