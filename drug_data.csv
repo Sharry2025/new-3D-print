@@ -1,0 +1,39 @@
+Drug English Name,Drug Loading (%),Matrix Type,Printing Temperature(℃),Layer Height (mm),Geometric Shape,SA/V Ratio (mm-1),Path Spacing (mm),Content of Plasticizer (%),Matrix Content (%),Shell Number,Printing Speed (mm/s),Extrusion Speed (mm/s),Hardness (kg),Friability (%),T50 (h),T80(h)
+Acetaminophen,35.0,Copovidone,140.0,0.6,Cylinder ,0.88,0.6,7.0,57.5,1,18.0,0.05,70.8,3.15,0.55,1.1
+Acetaminophen,35.0,Copovidone,140.0,0.6,Cylinder ,0.88,0.6,9.0,57.5,1,18.0,0.05,73.9,2.05,0.45,0.9
+Acetaminophen,35.0,Copovidone,140.0,0.6,Cylinder ,0.68,1.2,7.0,57.5,1,18.0,0.05,28.9,3.1,0.35,0.7
+Acetaminophen,35.0,Copovidone,140.0,0.6,Cylinder ,0.68,1.2,9.0,57.5,1,18.0,0.05,31.5,2.51,0.25,0.6
+Acetaminophen,35.0,Copovidone,140.0,0.6,Cylinder ,0.83,0.6,7.0,57.5,5,18.0,0.05,73.0,3.51,0.65,1.75
+Acetaminophen,35.0,Copovidone,140.0,0.6,Cylinder ,0.83,0.6,9.0,57.5,5,18.0,0.05,82.1,2.67,0.55,1.35
+Acetaminophen,35.0,Copovidone,140.0,0.6,Cylinder ,0.78,1.13,9.0,57.5,4,18.0,0.05,55.8,2.01,0.45,0.9
+Paracetamol,3.95,PVA,180.0,0.2,Cube,0.866,0.0,0.0,96.05,2,150.0,90.0,0.0,0.0,0.5,2.0
+Paracetamol,3.95,PVA,180.0,0.2,Pyramid,1.169,0.0,0.0,96.05,2,150.0,90.0,0.0,0.0,0.3,2.0
+Paracetamol,3.95,PVA,180.0,0.2,Cylinder,0.854,0.0,0.0,96.05,2,150.0,90.0,0.0,0.0,1.0,12.0
+Paracetamol,3.95,PVA,180.0,0.2,Sphere,0.634,0.0,0.0,96.05,2,150.0,90.0,0.0,0.0,1.5,12.0
+Paracetamol,3.95,PVA,180.0,0.2,Torus,1.002,0.0,0.0,96.05,2,150.0,90.0,0.0,0.0,0.7,3.0
+Acetaminophen,23.0,HPMC E5,200.0,0.625,0,0.0,0.9,0.0,77.0,0,8.0,0.02,0.0,0.0,12.0,36.0
+Acetaminophen,23.0,kollidon VA64,172.5,0.625,0,0.0,0.9,0.0,77.0,0,8.0,0.02,0.0,0.0,8.0,24.0
+Acetaminophen,23.0,kollidon SR,192.5,0.625,0,0.0,0.9,0.0,77.0,0,8.0,0.02,0.0,0.0,15.0,40.0
+Acetaminophen,23.0,kollicoat IR,182.5,0.625,0,0.0,0.9,0.0,77.0,0,8.0,0.02,0.0,0.0,10.0,30.0
+Acetaminophen,23.0,soluplus,152.5,0.625,0,0.0,0.9,0.0,77.0,0,8.0,0.02,0.0,0.0,24.0,48.0
+Fenofibrate,5.0,Beeswax,90.0,0.0,Honeycomb ,5.8,0.0,0.0,95.0,0,0.0,0.0,0.0,0.0,6.0,12.0
+Fenofibrate,5.0,Beeswax,90.0,0.0,Honeycomb,5.87,0.0,0.0,95.0,0,0.0,0.0,0.0,0.0,4.0,8.0
+Fenofibrate,5.0,Beeswax,90.0,0.0,Honeycomb,5.25,0.0,0.0,95.0,0,0.0,0.0,0.0,0.0,8.0,16.0
+Fenofibrate,5.0,Beeswax,90.0,0.0,Solid cylinder,1.41,0.0,0.0,95.0,0,0.0,0.0,0.0,0.0,12.0,24.0
+Itraconazole,20.0,HPC/PVP,185.0,0.1,Hollow cylinder,0.0,0.0,0.0,80.0,0,80.0,0.0,20.2,0.0,6.0,12.0
+Itraconazole,20.0,HPC/PVP,185.0,0.1,Hollow cylinder,0.0,0.0,0.0,80.0,0,80.0,0.0,14.0,0.0,4.0,8.0
+Itraconazole,20.0,HPC/PVP,185.0,0.1,Hollow cylinder,0.0,0.0,0.0,80.0,0,80.0,0.0,6.0,0.0,2.0,4.0
+Hydrochlorothiazide,12.5,Eudragit E,135.0,0.2,Caplet ,0.9,0.0,3.25,46.75,0,0.0,0.0,0.0,0.0,0.33,0.5
+Hydrochlorothiazide,12.5,Eudragit E,135.0,0.2,Caplet ,1.15,0.0,3.25,46.75,0,0.0,0.0,0.0,0.0,0.25,0.42
+Hydrochlorothiazide,12.5,Eudragit E,135.0,0.2,Caplet ,1.43,0.0,3.25,46.75,0,0.0,0.0,0.0,0.0,0.17,0.33
+Hydrochlorothiazide,12.5,Eudragit E,135.0,0.2,Caplet,2.03,0.0,3.25,46.75,0,0.0,0.0,0.0,0.0,0.08,0.25
+Hydrochlorothiazide,12.5,Eudragit E,135.0,0.2,Caplet ,0.86,0.0,3.25,46.75,0,0.0,0.0,0.0,0.0,0.08,0.2
+Hydrochlorothiazide,12.5,Eudragit E,135.0,0.2,Caplet,1.05,0.0,3.25,46.75,0,0.0,0.0,0.0,0.0,0.2,0.33
+Hydrochlorothiazide,12.5,Eudragit E,135.0,0.2,Caplet ,1.27,0.0,3.25,46.75,0,0.0,0.0,0.0,0.0,0.13,0.25
+Hydrochlorothiazide,12.5,Eudragit E,135.0,0.2,Caplet ,1.52,0.0,3.25,46.75,0,0.0,0.0,0.0,0.0,0.12,0.2
+Hydrochlorothiazide,12.5,Eudragit E,135.0,0.2,Caplet,1.84,0.0,3.25,46.75,0,0.0,0.0,0.0,0.0,0.08,0.17
+Hydrochlorothiazide,12.5,Eudragit E,135.0,0.2,Solid caplet,0.68,0.0,3.25,46.75,0,0.0,0.0,0.0,0.0,0.5,1.0
+Paracetamol,80.0,PVP K25/NaCCS,23.0,0.35,Oval ,0.6,0.0,0.0,0.0,0,6.0,1.8,7.97,0.54,0.05,0.08
+Paracetamol,80.0,PVP K30/SSG,23.0,0.35,Oval ,0.6,0.0,0.0,0.0,0,6.0,1.8,6.82,0.72,0.04,0.07
+Paracetamol ,80.0,HPMC/CCS,23.0,0.35,Oval ,0.6,0.0,0.0,0.0,0,6.0,1.8,9.15,0.38,0.07,0.12
+Acetaminophen (APAP),30.0,HPMC E5 + EC N14/HPC EF/HPC LF,0.0,0.0,Cylinder,0.0,0.0,5.0,0.0,0,0.0,0.0,0.0,0.0,10.0,24.0
