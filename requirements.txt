@@ -1,3 +1,5 @@
 streamlit
-numpy
 pandas
+numpy
+seaborn  # 确保包含这一行
+matplotlib  # seaborn 依赖 matplotlib
