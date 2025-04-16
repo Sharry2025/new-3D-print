@@ -1,6 +1,6 @@
-streamlit
-pandas
-numpy
+streamlit>=1.0.0
+pandas>=1.0.0
+numpy>=1.0.0
 seaborn  # 确保包含这一行
 matplotlib  # seaborn 依赖 matplotlib
 scikit-learn>=1.0.0  # 必须添加
