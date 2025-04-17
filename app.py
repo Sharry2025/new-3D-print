@@ -6,6 +6,14 @@ from sklearn.ensemble import RandomForestRegressor
 from sklearn.model_selection import train_test_split
 import pickle
 
+import matplotlib as mpl
+import platform
+import os
+
+def configure_fonts():
+    [...如上所述...]
+
+configure_fonts()
 import matplotlib.font_manager as fm
 # 尝试多种常见中文字体
 try:
