@@ -1,28 +1,19 @@
-# 核心依赖（固定主要版本）
-streamlit==1.28.0
-pandas==2.0.3
-numpy==1.24.3
-scikit-learn==1.3.0
+# 核心依赖
+streamlit==1.29.0
+pandas==2.2.0          # 明确支持 Python 3.12 的稳定版本
+numpy==1.26.0          # 预编译 wheel 版本，避免源码编译
+scikit-learn==1.4.0
+matplotlib==3.8.2
+seaborn==0.13.2
 
-# 可视化相关（严格匹配版本）
-matplotlib==3.7.1
-seaborn==0.12.2
-Pillow==10.0.0  # 解决图像处理依赖
+# 字体处理替代方案（替换 nototools）
+fonttools==4.47.0      # 更现代的字体处理库
+nototools @ git+https://github.com/googlefonts/nototools.git@main  # 从源码安装
 
-# 文本/字体处理
-fonttools==4.43.1
-nototools==0.2.2  # 思源字体专用工具
+# 构建依赖
+setuptools==68.2.2     # 确保包含 distutils 功能
+wheel==0.42.0
 
-# 机器学习工具
-scipy==1.10.1
-joblib==1.2.0
-
-# 必须固定的间接依赖
-markdown-it-py==2.2.0  # 避免与rich冲突
-rich==13.7.0
-Pygments==2.15.1
-mdurl==0.1.2
-
-# 兼容性声明
-python-dateutil>=2.8.2
-pytz>=2023.3
+# 可选优化项（根据实际需要添加）
+--prefer-binary        # 优先使用预编译包
+--no-cache-dir         # 避免缓存问题
