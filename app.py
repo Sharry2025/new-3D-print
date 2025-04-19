@@ -13,35 +13,15 @@ from datetime import datetime
 
 # ==================== 字体配置部分 ====================
 def configure_noto_font():
-    """专为思源黑体优化的跨平台字体配置"""
+    """跨平台字体配置"""
     try:
-        # 设置字体搜索路径（优先级：项目内字体 > 系统字体）
-        font_path = None
-        possible_paths = [
-            # 项目内字体路径（适用于Streamlit Cloud）
-            os.path.join(os.path.dirname(__file__), "fonts", "NotoSansCJKsc-Regular.otf"),
-            # Windows系统路径
-            "C:/Windows/Fonts/NotoSansCJKsc-Regular.otf",
-            # macOS系统路径
-            "/Library/Fonts/NotoSansCJKsc-Regular.otf"
-        ]
-        
-        for path in possible_paths:
-            if os.path.exists(path):
-                font_path = path
-                break
-        
-        if font_path:
-            # 动态加载字体文件
-            mpl.font_manager.fontManager.addfont(font_path)
-            plt.rcParams['font.family'] = 'Noto Sans CJK SC'
-            plt.rcParams['font.sans-serif'] = ['Noto Sans CJK SC']
-        else:
-            # 回退到系统默认中文字体
-            if platform.system() == 'Windows':
-                plt.rcParams['font.sans-serif'] = ['Microsoft YaHei']
-            elif platform.system() == 'Darwin':
-                plt.rcParams['font.sans-serif'] = ['Arial Unicode MS']
+        # 优先尝试使用系统内置中文字体
+        if platform.system() == 'Windows':
+            plt.rcParams['font.sans-serif'] = ['Microsoft YaHei']
+        elif platform.system() == 'Darwin':
+            plt.rcParams['font.sans-serif'] = ['Arial Unicode MS']
+        else:  # Linux/Streamlit Cloud环境
+            plt.rcParams['font.sans-serif'] = ['DejaVu Sans']  # 回退到支持中文的字体
         
         plt.rcParams['axes.unicode_minus'] = False
         
