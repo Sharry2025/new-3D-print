@@ -13,20 +13,32 @@ from datetime import datetime
 
 # ==================== 字体配置部分 ====================
 def configure_noto_font():
-    """跨平台字体配置"""
+    """跨平台字体配置终极方案"""
     try:
-        # 优先尝试使用系统内置中文字体
         if platform.system() == 'Windows':
             plt.rcParams['font.sans-serif'] = ['Microsoft YaHei']
         elif platform.system() == 'Darwin':
             plt.rcParams['font.sans-serif'] = ['Arial Unicode MS']
-        else:  # Linux/Streamlit Cloud环境
-            plt.rcParams['font.sans-serif'] = ['DejaVu Sans']  # 回退到支持中文的字体
+        else:  # Linux/Streamlit Cloud
+            # 尝试所有可能的中文字体
+            linux_fonts = [
+                'Noto Sans CJK SC',
+                'WenQuanYi Micro Hei', 
+                'Source Han Sans SC',
+                'DejaVu Sans'
+            ]
+            plt.rcParams['font.sans-serif'] = linux_fonts
         
         plt.rcParams['axes.unicode_minus'] = False
         
+        # 测试字体
+        fig, ax = plt.subplots()
+        ax.text(0.5, 0.5, "中文测试", ha='center')
+        plt.close(fig)
+        
     except Exception as e:
-        st.warning(f"字体配置失败: {str(e)}")
+        print(f"字体配置警告: {e}")
+        plt.rcParams['font.sans-serif'] = ['DejaVu Sans']  # 最终回退
 
 # 初始化字体配置（必须在所有绘图操作前调用）
 configure_noto_font()
