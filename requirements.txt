@@ -1,19 +1,10 @@
-# 核心依赖
 streamlit==1.29.0
-pandas==2.2.0          # 明确支持 Python 3.12 的稳定版本
-numpy==1.26.0          # 预编译 wheel 版本，避免源码编译
+pandas==2.2.0
+numpy==1.26.0
 scikit-learn==1.4.0
 matplotlib==3.8.2
 seaborn==0.13.2
-
-# 字体处理替代方案（替换 nototools）
-fonttools==4.47.0      # 更现代的字体处理库
-nototools @ git+https://github.com/googlefonts/nototools.git@main  # 从源码安装
-
-# 构建依赖
-setuptools==68.2.2     # 确保包含 distutils 功能
+fonttools==4.47.0
+nototools @ git+https://github.com/googlefonts/nototools.git@main
+setuptools==68.2.2
 wheel==0.42.0
-
-# 可选优化项（根据实际需要添加）
---prefer-binary        # 优先使用预编译包
---no-cache-dir         # 避免缓存问题
